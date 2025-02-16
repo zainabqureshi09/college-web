@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 
 export function middleware(req: NextRequest) {
-  const token = req.cookies.get("__session"); // Firebase stores session here
+  const token = req.cookies.get("__session"); 
   const isAuthenticated = !!token;
 
-  // Protected routes
+ 
   const protectedRoutes = ["/dashboard", "/profile"];
 
   if (!isAuthenticated && protectedRoutes.includes(req.nextUrl.pathname)) {
