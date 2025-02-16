@@ -1,0 +1,44 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/core": "^0.37.4",
+    "@emailjs/browser": "^4.4.1",
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
+    "@heroicons/react": "^2.2.0",
+    "@types/next-auth": "^3.13.0",
+    "emailjs-com": "^3.2.0",
+    "firebase": "^11.3.1",
+    "framer-motion": "^12.4.3",
+    "lottie-react": "^2.4.1",
+    "next": "^15.1.7",
+    "next-auth": "^4.24.7",
+    "nodemailer": "^6.9.16",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-icons": "^5.4.0",
+    "react-pageflip": "^2.0.3",
+    "sqlite": "^5.1.1",
+    "swiper": "^11.1.15"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
